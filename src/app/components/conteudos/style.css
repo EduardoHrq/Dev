@@ -10,6 +10,7 @@
   left: 0;
   z-index: -1;
   transition: .5s;
+  opacity: 0;
 }
 
 .pic:hover {
@@ -19,8 +20,9 @@
 }
 
 .pic:hover .imgGit {
-  top: 65%;
+  top: 60%;
   transform: translateY(50%);
   z-index: 2;
+  opacity: 1;
   background-color: var(--blocos);
 }

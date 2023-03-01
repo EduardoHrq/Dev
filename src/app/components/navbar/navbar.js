@@ -25,21 +25,21 @@ export default function NavBar() {
       <div className='bloco btts p-4 flex flex-col gap-4'>
         <Botao title={"Home"} toPage={"/"} image={home} />
         <Botao title={"Portifólio"} toPage={"/portifolio"} image={maleta} />
-        <Botao title={"Certificados"} toPage={"/certificados"} image={certificados} />
+        <Botao title={"Certificados"} toPage={"/"} image={certificados} />
         <Botao title={"E-mail"} toPage={"/email"} image={email} />
-        <Botao title={"GitHub"} toPage={"/gitstatus"} image={github} />
+        <Botao title={"GitHub"} toPage={"/"} image={github} />
       </div>
 
       <div className='bloco flex gap-2 redes p-3'>
-        <Link href='/' className='flex justify-center items-center p-3 hover:bg-neutral-700 transition-colors rounded-2xl'>
+        <Link href='https://github.com/EduardoHrq' className='flex justify-center items-center p-3 hover:bg-neutral-700 transition-colors rounded-2xl'>
           <Image src={github} width={100} />
         </Link>
 
-        <Link href='/' className='flex justify-center items-center p-3 hover:bg-neutral-700 transition-colors rounded-lg'>
+        <Link href='https://www.linkedin.com/in/eduardohrq/' className='flex justify-center items-center p-3 hover:bg-neutral-700 transition-colors rounded-lg'>
           <Image src={linkedin} width={100} />
         </Link>
 
-        <Link href='/' className='flex justify-center items-center p-3 hover:bg-neutral-700 transition-colors rounded-lg'>
+        <Link href='https://drive.google.com/file/d/1OmXaDgMr4drnz0xlmh5mvdx5n5StoBCJ/view?usp=sharing' className='flex justify-center items-center p-3 hover:bg-neutral-700 transition-colors rounded-lg'>
           <Image src={curriculo} width={100} />
         </Link>
       </div>
