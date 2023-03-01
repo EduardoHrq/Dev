@@ -1,0 +1,26 @@
+.pic {
+  transition: .5s;
+  position: relative;
+  z-index: 1;
+}
+
+.imgGit{
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transition: .5s;
+}
+
+.pic:hover {
+  transform-origin: top;
+  transform: scale(175%);
+  z-index: 2;
+}
+
+.pic:hover .imgGit {
+  top: 65%;
+  transform: translateY(50%);
+  z-index: 2;
+  background-color: var(--blocos);
+}
