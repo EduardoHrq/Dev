@@ -14,34 +14,36 @@ import Botao from '../botao/botao'
 
 export default function NavBar() {
   return (
-    <div className='nav flex flex-col gap-3'>
-      <div className='bloco flex flex-col justify-center items-center gap-2'>
-        <div className='w-36 h-36 bg-cyan-600 bg-opacity-50 flex items-center justify-center rounded-full overflow-hidden'>
-          <Image src={userImage} height={150} />
+    <div className="w-[360px] h-screen">
+      <div className='nav w-[360px] fixed flex flex-col gap-3'>
+        <div className='bloco flex flex-col justify-center items-center gap-3'>
+          <div className='w-36 h-36 bg-cyan-600 bg-opacity-50 flex items-center justify-center rounded-full overflow-hidden outline outline-4 outline-neutral-300 outline-offset-4'>
+            <Image src={userImage} height={150} />
+          </div>
+          <p className='font-bold text-white'>Eduardo Henrique</p>
         </div>
-        <p className='font-bold text-white'>Eduardo Henrique</p>
-      </div>
 
-      <div className='bloco btts p-4 flex flex-col gap-4'>
-        <Botao title={"Home"} toPage={"/"} image={home} />
-        <Botao title={"Portifólio"} toPage={"/portifolio"} image={maleta} />
-        <Botao title={"Certificados"} toPage={"/"} image={certificados} />
-        <Botao title={"E-mail"} toPage={"/email"} image={email} />
-        <Botao title={"GitHub"} toPage={"/"} image={github} />
-      </div>
+        <div className='bloco btts p-4 flex flex-col gap-4'>
+          <Botao title={"Home"} toPage={"/"} image={home} />
+          <Botao title={"Portifólio"} toPage={"/portifolio"} image={maleta} />
+          <Botao title={"Certificados"} toPage={"/certificados"} image={certificados} />
+          <Botao title={"E-mail"} toPage={"/email"} image={email} />
+          <Botao title={"GitHub"} toPage={"/"} image={github} />
+        </div>
 
-      <div className='bloco flex gap-2 redes p-3'>
-        <Link href='https://github.com/EduardoHrq' className='flex justify-center items-center p-3 hover:bg-neutral-700 transition-colors rounded-2xl'>
-          <Image src={github} width={100} />
-        </Link>
+        <div className='bloco flex gap-2 redes p-3'>
+          <Link href='https://github.com/EduardoHrq' className='flex justify-center items-center p-3 rounded-2xl hover:bg-neutral-700  transition-colors duration-300'>
+            <Image src={github} width={100} />
+          </Link>
 
-        <Link href='https://www.linkedin.com/in/eduardohrq/' className='flex justify-center items-center p-3 hover:bg-neutral-700 transition-colors rounded-lg'>
-          <Image src={linkedin} width={100} />
-        </Link>
+          <Link href='https://www.linkedin.com/in/eduardohrq/' className='flex justify-center items-center p-3 rounded-2xl hover:bg-neutral-700  transition-colors duration-300'>
+            <Image src={linkedin} width={100} />
+          </Link>
 
-        <Link href='https://drive.google.com/file/d/1OmXaDgMr4drnz0xlmh5mvdx5n5StoBCJ/view?usp=sharing' className='flex justify-center items-center p-3 hover:bg-neutral-700 transition-colors rounded-lg'>
-          <Image src={curriculo} width={100} />
-        </Link>
+          <Link href='https://drive.google.com/file/d/1OmXaDgMr4drnz0xlmh5mvdx5n5StoBCJ/view?usp=sharing' className='flex justify-center items-center p-3 rounded-2xl hover:bg-neutral-700  transition-colors duration-300'>
+            <Image src={curriculo} width={100} />
+          </Link>
+        </div>
       </div>
     </div>
   )

@@ -7,7 +7,7 @@ export default function Demonstracao({ projeto, imagem, linkPage, linkRepo }) {
   const url = 'https://github-readme-stats.vercel.app/api/pin/?username=EduardoHrq&theme=transparent&text_color=b2a3ff&hide_border=true&hide_title=true&repo=' + projeto
 
   return (
-    <div className="pic rounded-xl w-72 p-2 bg-neutral-700 bg-opacity-50">
+    <div className="pic rounded-xl w-72 p-2 bg-neutral-700 bg-opacity-50 brightness-75 hover:brightness-100">
       <Link href={linkPage} target="_blank">
         <Image src={imagem} height={132} className="block m-auto" />
       </Link>

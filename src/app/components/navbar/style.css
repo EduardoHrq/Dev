@@ -1,5 +1,4 @@
 .nav {
-  width: 25%;
   height: 100vh;
   padding: 12px 30px;
 }
@@ -19,22 +18,8 @@
   height: 15%;
 }
 
-.pages {
-  box-shadow: 0px 0 0 0px black inset;
-  transition: .5s;
-}
-
-.pages:hover {
-  box-shadow: 250px 0 0 0px black inset;
-}
-
 .pages .logo {
   left: 5%;
   transform: translateY(-50%) translateX(0);
   transition: .5s;
-}
-
-.pages:hover .logo {
-  left: 89%;
-  transform: translateY(-50%) translateX(0);
 }

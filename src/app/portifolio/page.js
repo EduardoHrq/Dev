@@ -17,7 +17,7 @@ export default function Portifolio() {
         <NavBar />
 
         <div className="w-3/4 pt-4 pb-6 pr-5">
-          <div className="flex flex-wrap justify-center gap-5">
+          <div className="flex flex-wrap justify-center gap-10">
             <Demonstracao linkPage={"https://dev-eduardohrq.vercel.app"} linkRepo={"https://github.com/EduardoHrq/dev"} imagem={devPage} projeto={'dev'}/>
             <Demonstracao linkPage={"https://eduardohrq-devlinks.vercel.app"} linkRepo={"https://github.com/EduardoHrq/links-next13"}  imagem={devLinks} projeto={'links-next13'}/>
             <Demonstracao linkPage={"https://switch-button-react.vercel.app"} linkRepo={"https://github.com/EduardoHrq/Switch-button-react"}  imagem={switchImage} projeto={'Switch-button-react'}/>
