@@ -17,8 +17,8 @@ export default function NavBar() {
     <div className="w-[360px] h-screen">
       <div className='nav w-[360px] fixed flex flex-col gap-3'>
         <div className='bloco flex flex-col justify-center items-center gap-3'>
-          <div className='w-36 h-36 bg-cyan-600 bg-opacity-50 flex items-center justify-center rounded-full overflow-hidden outline outline-4 outline-neutral-300 outline-offset-4'>
-            <Image src={userImage} height={150} />
+          <div className='w-[120px] h-[120px] bg-indigo-500 bg-opacity-50 flex items-center justify-center rounded-full overflow-hidden outline outline-4 outline-neutral-300 outline-offset-4'>
+            <Image src={userImage} width={100} height={50} />
           </div>
           <p className='font-bold text-white'>Eduardo Henrique</p>
         </div>

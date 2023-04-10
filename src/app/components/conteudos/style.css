@@ -4,7 +4,7 @@
   z-index: 1;
 }
 
-.imgGit{
+.imgGit {
   position: absolute;
   top: 0;
   left: 0;
@@ -15,7 +15,7 @@
 
 .pic:hover {
   transform-origin: top;
-  transform: scale(175%);
+  scale: 1.5;
   z-index: 2;
 }
 
