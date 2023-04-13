@@ -97,8 +97,8 @@ export default function PageHome() {
         </div>
       </div>
 
-      <div className="w-full h-full bg-neutral-800 rounded-2xl px-5 absolute back">
-        <div className="flex flex-col gap-3 text-white -mt-3">
+      <div className="w-full h-full flex flex-col gap-7 text-zinc-300 bg-neutral-800 rounded-2xl px-5 py-5 absolute back">
+        <div className="flex flex-col gap-3 text-white">
           <p className="font-bold text-xl">Formações</p>
           <hr className="opacity-50" />
           <div className="flex gap-5">
@@ -111,6 +111,18 @@ export default function PageHome() {
             </div>
           </div>
         </div>
+
+        <div className="flex flex-col gap-3 text-white">
+          <p className="font-bold text-xl">Sobre mim</p>
+          <hr className="opacity-50" />
+
+          <div>
+            <p className='text-justify text-white'>
+              Me chamo Eduardo Henrique Lima Silva, tenho 20 anos, atualmente estou cursando engenharia de software na UNICEPLAC, gama - DF. Ainda sem contato com mercado de trabalho, porém através deste web site na qual uso para me auxiliar a encontrar emprego para começar minhas atividades profissionais, me colocando a disposição para colaborar com a empresa, onde poderei aprimorar as habilidades que através de estudos possuo. Assim dispondo resultados para a organização e para a sociedade, bem como, meu desenvolvimento pessoal e profissional. Tenho mais habilidades com códigos, com isso, me destaco com java, python, javascript, mas também entendo de front-end com html, css e frameworks. tenho conhecimentos acerca do SCRUM.
+            </p>
+          </div>
+        </div>
+
       </div>
 
 

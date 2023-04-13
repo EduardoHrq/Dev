@@ -14,7 +14,7 @@ import Botao from '../botao/botao'
 
 export default function NavBar() {
   return (
-    <div className="w-[360px] h-screen">
+    <div id='NavBarP' className="w-[360px] h-screen overflow-hidden">
       <div className='nav w-[360px] fixed flex flex-col gap-3'>
         <div className='bloco flex flex-col justify-center items-center gap-3'>
           <div className='w-[120px] h-[120px] bg-indigo-500 bg-opacity-50 flex items-center justify-center rounded-full overflow-hidden outline outline-4 outline-neutral-300 outline-offset-4'>
